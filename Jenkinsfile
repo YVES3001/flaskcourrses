@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-                git branch 'C:\Users\serge\Documents\devops\flask\flaskcourrses'
+                git branch 'https://github.com/YVES3001/flaskcourrses.git'
             }
         }
 
