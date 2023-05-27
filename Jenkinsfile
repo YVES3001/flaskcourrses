@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-                git branch 'https://github.com/YVES3001/flaskcourrses.git'
+                git branch: 'main', url: 'https://github.com/YVES3001/flaskcourrses.git'
             }
         }
 
